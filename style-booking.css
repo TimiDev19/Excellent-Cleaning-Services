@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    min-height: fit-content;
+    padding: 21px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./img/Maid_Bright_2022_Indoors-288-1024x683.jpg);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 7px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-links ul li:after{
+    content: '';
+    height: 3px;
+    background: crimson;
+    width: 0%;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    transition: 0.5s ease;
+}
+.text-box{
+    color: #fff;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+.text-box h1{
+    margin-top: 30px;
+    font-size: 60px;
+}
+.buttons{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.btn{
+    margin: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 20%;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    width: 30%;
+    height: 45px;
+}
+.location{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.location-box{
+    margin: auto;
+    padding: 20px;
+}
+.location-box img{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0 black;
+}
+.location-box h1{
+    color: gray;
+}
+.location-box form ul li{
+    list-style: none;
+}
+.location-box form ul li input{
+    height: 50px;
+    margin: 15px;
+    padding: 10px;
+    width: 80%;
+    background-color: lightgray;
+    border: none;
+    border-radius: 8px;
+}
+.location-box form ul li input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+.location-box form ul li input:active{
+    border: none;
+}
+.footer{
+    background-color: rgb(42, 20, 97);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.footer-box{
+    padding: 25px;
+}
+.footer-box ul li{
+    list-style: none;
+    margin: 8px;
+    color: #fff;
+}
+.footer-box span{
+    color: orange;
+}
