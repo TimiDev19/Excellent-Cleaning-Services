@@ -421,8 +421,8 @@
     html{
         font-size: 50%;
     }
-    .header{
-        width: 400px;
+    *{
+        overflow: hidden;
     }
 
     .services-info{
