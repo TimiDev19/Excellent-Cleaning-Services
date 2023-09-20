@@ -421,10 +421,20 @@
     html{
         font-size: 50%;
     }
-    *{
-        overflow: hidden;
-    }
 
+    .services{
+        overflow-x: hidden;
+    }
+    .footer{
+        overflow-x: hidden;
+    }
+    .contact{
+        overflow-x: hidden;
+    }
+    .prices,
+    .hire{
+        overflow-x: hidden;
+    }
     .services-info{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
