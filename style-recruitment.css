@@ -22,6 +22,7 @@
 }
 
 .logo{
+    margin-left: 10px;
     font-size: 2.5rem;
     color: white;
     font-weight: 600;
@@ -35,7 +36,7 @@
 
 .navbar a{
     font-size: 1.7rem;
-    color: white;
+    color: crimson;
     margin-left: 4rem;
     transition: .3s;
     text-decoration: none;
@@ -204,7 +205,7 @@ nav{
         display: block;
     }
     .l a{
-        color: gray;
+        color: #fff;
         font-size: 50px;
     }
     .l a:hover{
@@ -219,12 +220,6 @@ nav{
 }
 @media(max-width: 567px){
     .location{
-        width: 90%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .header-box{
         width: 90%;
         margin: auto;
         display: grid;
@@ -267,5 +262,138 @@ nav{
     .buttons{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 1200px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .header{
+        padding: 2rem 3%;
+    }
+
+    section{
+        padding: 10rem 3% 2rem;
+    }
+
+    .techstack{
+        padding-bottom: 7rem;
+    }
+
+    .projects{
+        padding-bottom: 7rem;
+    }
+
+    .contact{
+        min-height: auto;
+    }
+
+    .footer{
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-icon{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba( 0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba( 0, 0, 0, .2);
+        display: none;
+    }
+
+    .navbar.active{
+        display: block;
+    }
+
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home{
+        flex-direction: column;
+    }
+
+    .home-content h3{
+        font-size: 2.6rem;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-img img{
+        width: 70vw;
+        margin-top: 4rem; 
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+
+    .about img{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .techstack h2 {
+        margin-bottom: 3rem;
+
+    }
+
+    .projects h2{
+        margin-bottom: 3rem;
+    }
+
+    .projects-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 617px) {
+    .projects-container{
+        grid-template-columns: 1fr;
+    }
+    .header-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 450px) {
+    html{
+        font-size: 50%;
+    }
+
+    .contact form .input-box input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px){
+    .home-img img{
+        width: 90vw;
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
     }
 }
