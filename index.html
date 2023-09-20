@@ -2,45 +2,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Excellent Cleaning</title>
+    <title>Bienvenue Cleaning</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <h1 class="logo">Excellent Cleaning Services</h1>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="">Our Services</a></li>
-                    <li><a href="">Our Pricing</a></li>
-                    <li><a href="">Recruitment</a></li>
-                    <li><a href="">Contact Us</a></li>
-                </ul>
-            </div>
+    
+    <header class="header">
+        <a href="#" class="logo"><span class="multiple-text"></span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#prices">Prices</a>
+            <a href="#contact">Contact Us</a>
+            <a><span>Recruitment</span></a>
         </nav>
-        <div class="text-box">
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
             <h1>Looking for a domestic cleaning company?</h1>
-        </div>
-        <div class="main-box">
             <p>
                 If you're looking for the best home cleaning service in 
-                London then look no further than Excellent Cleaning Services. 
-                We pride ourselves ourselves on providing reliable, honest 
+                London then look no further than Bienvenue Cleaning Services. 
+                We pride ourselves on providing reliable, honest 
                 and high-quality domestic cleaning services to homes all 
-                around the capital city.
+                around the capital city.  
             </p>
-            <div class="buttons">
-                <button class="btn"><a href="booking.html">Book Your Cleaner Online</a></button>
-                <button class="btn"><a href="">Enquire About Our Services</a></button>
+            <div class="butttons">
+                <button class="home-btn"><a href="booking.html" >Book your cleaner</a></button>
+                <button class="home-btn"><a href="#recruitment" >Apply For A Job</a></button>
             </div>
-            <p>An <span>affordable price</span> to keep your house clean!</p>
         </div>
     </section>
+
     <div class="service-box">
         <img src="./img/Screenshot 2023-09-15 at 11.11.00 PM.png" alt="">
     </div>
-    <section class="services" id="#services">
+
+    <section class="services" id="services">
+        <h1 class="heading">Our <span>Services</span></h1>
         <h3>What house cleaning services do we provide?</h3>
         <p>
             We provide two types of cleaning service: one-off spring cleans or 
@@ -62,7 +65,7 @@
                 <p>
                     Not sure how many hours you need a cleaner for or what frequency is best? Most of our clients have a cleaner for 3 hours per week to keep their homes lovely and clean.
                 </p>
-                <h3><span>From £13.75 per hour</span></h3>
+                <h3><span>From £12.50 per hour</span></h3>
             </div>
             <div class="services-info-box1">
                 <h3>One-off home cleaning service</h3>
@@ -83,37 +86,53 @@
                 </p>
             </div>
         </div>
+
+        <section class="hire">
+            <div class="hire-box">
+                <img src="./img/Maid-2.jpg.webp" alt="">
+            </div>
+            <div class="hire-box" id="recruitment">
+                <h1>Looking for a cleaning job?</h1>
+                <p>
+                    We're always on the lookout for experienced house 
+                    cleaners in london who conduct themselves in 
+                    a professional manner. We have regular cleaning 
+                    jobs near to you, cleaning within private residential 
+                    properties. If you want just a few extra hours each week 
+                    we can definitely help you. Submit your application.
+                </p>
+                <button class="btn1"><a href="recruitment.html">Start Application</a></button>
+            </div>
+        </section>
     </section>
-    <section class="prices">
-        <h3>Excellent Cleaning Prices</h3>
+    <section class="prices" id="prices">
+        <h3>Bienvenue Cleaning Prices</h3>
         <p>Prices may vary depending on the area, minimum hours may also apply. Our online booking service will provide you with the exact rates for your property.</p>
        <div class="price-table">
             <div class="prices-box">Cleaning Service</div>
             <div class="prices-box">Price</div>
             <div class="prices-box1"><h4>Regular weekly house cleaning</h4></div>
-            <div class="prices-box1"><h4>From £13.75 per hour</h4></div>
+            <div class="prices-box1"><h4>From £12.50 per hour</h4></div>
             <div class="prices-box1"><h4>Regular fortnightly house cleaning</h4></div>
-            <div class="prices-box1"><h4>From £14.25 per hour</h4></div>
+            <div class="prices-box1"><h4>From £13.50 per hour</h4></div>
             <div class="prices-box1"><h4>6 hours maximum for a one-off clean</h4></div>
-            <div class="prices-box1"><h4>nhsvdghdwv</h4>
+            <div class="prices-box1"><h4>£15.00</h4>
         </div>
     </section>
-    <section class="hire">
-        <div class="hire-box">
-            <img src="./img/Maid-2.jpg.webp" alt="">
-        </div>
-        <div class="hire-box">
-            <h1>Looking for a cleaning job?</h1>
-            <p>
-                We're always on the lookout for experienced house 
-                cleaners in london who conduct themselves in 
-                a professional manner. We have regular cleaning 
-                jobs near to you, cleaning within private residential 
-                properties. If you want just a few extra hours each week 
-                we can definitely help you. Submit your application.
-            </p>
-            <button class="btn1">Submit Application</button>
-        </div>
+    
+    <section class="contact" id="contact">
+        <h1>Contact <span>Us</span></h1>
+        <form action="mailto:rotimioluwatimilehin19@gmail.com">
+            <div class="input-box">
+                <input type="text" placeholder="Subject (eg. question, complaint)" id="subject" required>
+                <input type="text" placeholder="First Name" id="First Name" required>
+                <input type="text" placeholder="Last Name" id="Last Name" required>
+                <input type="email" placeholder="email" id="email" required>
+                
+            </div>
+            <input type="text" placeholder="message" id="message" required class="textarea">
+            <input type="button" value="Send" id="btn2" onclick="sendMail()">
+        </form>
     </section>
     <section class="footer">
         <div class="footer-box">
@@ -125,35 +144,34 @@
         <div class="footer-box">
             <ul>
                 <li><span>Office opening times</span></li>
-                <li>Mon-Thu 9am-5pm</li>
-                <li>Friday 9am-4.30pm</li>
-                <li>Saturday 9am-3pm</li>
-                <li>Sunday Closed</li>
+                <li>Mon-Thu: 9am-5pm</li>
+                <li>Friday: 9am-4.30pm</li>
+                <li>Saturday: 9am-3pm</li>
+                <li>Sunday: Closed</li>
             </ul>
         </div>
         <div class="footer-box">
             <ul>
                 <li><span>Find us on</span></li>
+                <li><i class='bx bxl-whatsapp'></i></li>
+                <li><i class='bx bx-envelope' ></i></li>
             </ul>
         </div>
         <div class="footer-box">
             <ul>
                 <li><span>Links</span></li>
-                <li>Mon-Thu 9am-8.30pm</li>
-                <li>Friday 9am-5.30pm</li>
-                <li>Saturday 9am-3pm</li>
-                <li>Sunday Closed</li>
-            </ul>
-        </div>
-        <div class="footer-box">
-            <ul>
-                <li><span>Useful downloads</span></li>
-                <li>Mon-Thu 9am-8.30pm</li>
-                <li>Friday 9am-5.30pm</li>
-                <li>Saturday 9am-3pm</li>
-                <li>Sunday Closed</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#recruitment">Recruitment</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="">Pricing</a></li>
             </ul>
         </div>
     </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="index.js"></script>
 </body>
 </html>

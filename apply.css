@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: -20;
+    width: 100%;
+    padding: 2rem 9%;
+    background-color: rgba( 0, 0, 0, .2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.sticky{
+    border-radius: 2rem solid rgba( 0, 0, 0, .2);
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    cursor: default;
+    text-decoration: none;
+}
+
+.navbar span{
+    color: transparent;
+}
+
+.navbar a{
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 4rem;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.navbar a:hover, 
+.navbar a.active{
+    color: crimson;
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: white;
+    display: none;
+}
+
+/*.header{
+    position: fixed;
+    top: 0;
+    left: -20;
+    width: 100%;
+    padding: 2rem 9%;
+    background-color: rgba( 0, 0, 0, .2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.sticky{
+    border-radius: 2rem solid rgba( 0, 0, 0, .2);
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    cursor: default;
+    text-decoration: none;
+}
+
+.navbar span{
+    color: transparent;
+}
+
+.navbar a{
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 4rem;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.navbar a:hover, 
+.navbar a.active{
+    color: crimson;
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: white;
+    display: none;
+}
+*/
+
+/*.header{
+    min-height: fit-content;
+    padding: 21px;
+}
+.header-box{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 7px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-links ul li:after{
+    content: '';
+    height: 3px;
+    background: crimson;
+    width: 0%;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    transition: 0.5s ease;
+}
+.text-box{
+    padding: 22px;
+    color: gray;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+.text-box img{
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0 black;
+}
+.text-box h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.text-box p{
+    padding: 20px;
+}
+.text-box span{
+    color: crimson;
+}*/
+.buttons{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#btn{
+    margin: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 20%;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+#btn:hover{
+    width: 30%;
+    height: 45px;
+}
+.main{
+    width: 90%;
+    margin: auto;
+    margin-top: 90px;
+    padding: 20px;
+    text-align: center;
+}
+.main h1{
+    font-size: 90px;
+    color: gray;
+}
+.main h1 span{
+    color: crimson;
+}
+.main ul li{
+    list-style: none;
+}
+.input-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.main input{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid crimson;
+    border-radius: 4px;
+}
