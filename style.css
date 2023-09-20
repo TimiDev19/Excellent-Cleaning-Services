@@ -419,8 +419,10 @@
 
 @media (max-width: 450px) {
     html{
-        overflow-x: hidden;
         font-size: 50%;
+    }
+    .header{
+        width: 400px;
     }
 
     .services-info{
