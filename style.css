@@ -421,6 +421,9 @@
     html{
         font-size: 50%;
     }
+    .header{
+       padding: 20px;
+    }
 
     .services{
         overflow-x: hidden;
