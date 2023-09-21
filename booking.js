@@ -59,5 +59,5 @@ function sendMail()
     var SubjectLine = "/---NEW ORDER---/";
     var body = "NAME: " + document.getElementById("Name").value + "          " +  " ----->CITY: " + document.getElementById("City").value + "          " + " ----->EMAIL: " + document.getElementById("email").value + "          " + " ----->PHONE NUMBER: " + document.getElementById("number").value + "          " + " ----->ADDRESS: " + document.getElementById("address").value;
 
-    window.location.href = "mailto:rotimioluwatimilehin19@gmail.com?subject=" +SubjectLine+"&body="+body;
+    window.location.href = "mailto:officialbienvenueservices@mail.uk?subject=" +SubjectLine+"&body="+body;
 }

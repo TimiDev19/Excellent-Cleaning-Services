@@ -59,5 +59,5 @@ function sendMail()
     var SubjectLine = "/---JOB APPLICATION---/";
     var body = "FIRST NAME: " + document.getElementById("first name").value + "          " + " ----->LAST NAME: " + document.getElementById("last name").value + "          " +  " ----->GENDER: " + document.getElementById("gender").value +  "          " +  " ----->EMAIL: " + document.getElementById("email").value + "          " + " ----->PHONE NUMBER: " + document.getElementById("number").value + "          " + " ----->AGE: " + document.getElementById("age").value;
 
-    window.location.href = "mailto:rotimioluwatimilehin19@gmail.com?subject=" +SubjectLine+"&body="+body;
+    window.location.href = "mailto:officialbienvenueservices@mail.uk?subject=" +SubjectLine+"&body="+body;
 }

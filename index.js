@@ -60,5 +60,5 @@ function sendMail()
     var body = "FIRST NAME: " + document.getElementById("First Name").value +  "          " + " ----->LAST NAME: " + document.getElementById("Last Name").value + "          " + " ----->EMAIL: " + "          " + document.getElementById("email").value + "          " ;
     var msg = " ----->MESSAGE: " + document.getElementById("message").value;
 
-    window.location.href = "mailto:rotimioluwatimilehin19@gmail.com?subject=" +SubjectLine+"&body="+body+msg;
+    window.location.href = "mailto:officialbienvenueservices@mail.uk?subject=" +SubjectLine+"&body="+body+msg;
 }
