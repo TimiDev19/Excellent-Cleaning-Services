@@ -86,6 +86,20 @@
     position: relative;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./img/Maid_Bright_2022_Indoors-288-1024x683.jpg);
 }
+@keyframes home{
+    0%{
+        background-color: rgba(4,9,30,0.7);
+    }
+    33%{
+        background-color: transparent;
+    }
+    66%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: rgba(4,9,30,0.7);
+    }
+}
 .home-content{
     background-color: rgba(4,9,30,0.7);
     padding: 40px;
@@ -93,6 +107,13 @@
     width: 50%;
     color: #fff;
     border-radius: 10px;
+    animation-name: home;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.home-content:hover{
+    animation-play-state: paused;
 }
 .home-content h1{
     padding: 20px;
@@ -136,8 +157,31 @@
     margin: 1px;
     height: 45px;
 }
+
+@keyframes niko {
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(33%);
+    }
+    66%{
+        transform: translateX(66%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
 .service-box img{
     width: 100%;
+    animation-name: niko;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+}
+.service-box img:hover{
+    animation-play-state: paused;
 }
 .services{
     width: 90%;
@@ -190,6 +234,9 @@
     margin: 20px 0;
     color: orange;
     font-size: 40px;
+    animation: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .prices{
     background-color: orange;

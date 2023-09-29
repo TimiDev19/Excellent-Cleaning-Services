@@ -161,14 +161,28 @@ nav{
     margin: auto;
     padding: 20px;
 }
+@keyframes timi {
+    0%{
+        width: 80%;
+    }
+    33%{
+        width: 100%;
+    }
+    66%{
+        width: 100%;
+    }
+    100%{
+        width: 80%;
+    }
+}
 .location-box img{
-    width: 80%;
+    width: 30%;
     border-radius: 10px;
     box-shadow: 0 0 1rem black;
     transition: .5s ease;
-}
-.location-box img:hover{
-    width: 90%;
+    animation-name: timi;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .location-box h1{
     color: gray;
