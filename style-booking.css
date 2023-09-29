@@ -36,14 +36,14 @@
 
 .navbar a{
     font-size: 1.7rem;
-    color: crimson;
+    color: white;
     margin-left: 4rem;
     transition: .3s;
     text-decoration: none;
 }
 
 .navbar a:hover, 
-.navbar a.active{
+.navbar{
     color: crimson;
 }
 
@@ -164,7 +164,11 @@ nav{
 .location-box img{
     width: 80%;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px 0 black;
+    box-shadow: 0 0 1rem black;
+    transition: .5s ease;
+}
+.location-box img:hover{
+    width: 90%;
 }
 .location-box h1{
     color: gray;

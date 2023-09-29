@@ -35,14 +35,14 @@
 
 .navbar a{
     font-size: 1.7rem;
-    color: crimson;
+    color: white;
     margin-left: 4rem;
     transition: .3s;
     text-decoration: none;
 }
 
 .navbar a:hover, 
-.navbar a.active{
+.navbar{
     color: crimson;
 }
 

@@ -43,7 +43,7 @@ ScrollReveal({
 
     ScrollReveal().reveal('.home-content, .contact h1', { origin: 'top'});
     ScrollReveal().reveal('.services p, .hire-box img, .contact form, .price-table, .prices p', { origin: 'bottom'});
-    ScrollReveal().reveal('.services-info-box, .prices h3', { origin: 'left'});
+    ScrollReveal().reveal('.services-info-box, .prices h3, .heading', { origin: 'left'});
     ScrollReveal().reveal('.services-info-box1, .services h3', { origin: 'right'});
 
 consttyped = new Typed('.multiple-text', {
