@@ -187,7 +187,7 @@
     font-size: 60px;
 }
 .services h1 span{
-    color: crimson;
+    color: rgb(106, 67, 169);
 }
 .services h3{
     margin: 20px;
@@ -303,7 +303,7 @@
     color: gray;
 }
 .contact h1 span{
-    color: crimson;
+    color: rgb(106, 67, 169);
 }
 .input-box{
     display: grid;
@@ -312,14 +312,14 @@
 .contact input{
     padding: 20px;
     margin: 20px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(106, 67, 169);
     border-radius: 6px;
 }
 .contact .textarea{
     width: 100%;
     margin: auto;
     padding: 20px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(106, 67, 169);
     resize: none;
     border-radius: 8px;
 }

@@ -141,15 +141,14 @@ nav{
     color: white;
     font-size: 16px;
     cursor: pointer;
-    width: 20%;
+    padding: 20px;
 }
 .btn a{
     text-decoration: none;
     color: white;
 }
 #btn:hover{
-    width: 30%;
-    height: 45px;
+   box-shadow: 0 0 .5rem black;
 }
 .location{
     width: 90%;
