@@ -171,11 +171,6 @@
 }
 .service-box img{
     width: 100%;
-    animation-name: niko;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-delay: 3s;
 }
 .service-box img:hover{
     animation-play-state: paused;
@@ -231,9 +226,6 @@
     margin: 20px 0;
     color: orange;
     font-size: 40px;
-    animation: example;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 .prices{
     background-color: orange;
