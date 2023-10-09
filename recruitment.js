@@ -53,3 +53,11 @@ consttyped = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
+
+function sendMails()
+{
+    var SubjectLine = "";
+    var body = "Hi, how may we help you?"; 
+
+    window.location.href = "mailto:officebienvenueservices@mail.uk?subject=" +SubjectLine+"&body="+body;
+}
