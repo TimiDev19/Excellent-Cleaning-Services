@@ -47,7 +47,7 @@ ScrollReveal({
     ScrollReveal().reveal('.services-info-box1, .services h3', { origin: 'right'});
 
 consttyped = new Typed('.multiple-text', {
-    strings: ['Bienvenue'],
+    strings: ['BIENVENUE'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,

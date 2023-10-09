@@ -47,7 +47,7 @@ ScrollReveal({
     ScrollReveal().reveal('.services-info-box1, .location-box img', { origin: 'right'});
 
 consttyped = new Typed('.multiple-text', {
-    strings: ['Bienvenue'],
+    strings: ['BIENVENUE'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
