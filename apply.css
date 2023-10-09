@@ -23,7 +23,7 @@
 
 .logo{
     font-size: 2.5rem;
-    color: red;
+    color: rgb(106, 67, 169);
     font-weight: 600;
     cursor: default;
     text-decoration: none;
@@ -35,7 +35,7 @@
 
 .navbar a{
     font-size: 1.7rem;
-    color: white;
+    color: black;
     margin-left: 4rem;
     transition: .3s;
     text-decoration: none;
@@ -43,7 +43,7 @@
 
 .navbar a:hover, 
 .navbar{
-    color: crimson;
+    color: rgb(106, 67, 169);
 }
 
 #menu-icon{
