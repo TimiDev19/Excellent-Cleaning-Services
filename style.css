@@ -38,7 +38,10 @@
     align-items: center;
     z-index: 100;
 }
-
+.header img{
+    border-radius: 50%;
+    width: 60px;
+}
 .header.sticky{
     border-radius: 2rem solid rgba( 0, 0, 0, .2);
 }
